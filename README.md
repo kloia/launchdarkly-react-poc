@@ -5,7 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `touch .env`
+Add following variables and save
 
+REACT_APP_LD_TEST_CLIENT_ID=$YOUR_LAUNCHDARKLY_TEST_CLIENT_ID
+REACT_APP_LD_PROD_CLIENT_ID=$YOUR_LAUNCHDARKLY_PROD_CLIENT_ID
 ### `npm start`
 
 Runs the app in the development mode.\
