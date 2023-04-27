@@ -45,7 +45,7 @@ const Content = ({envType, toggleClientId, changeContext}) => {
               <Item active activeButton={active === 1}>BETA USER</Item>
             </Grid>
             <Grid onClick={() => handleChangeContext('excluded-beta', 2)}>
-              <Item active activeButton={active === 2}>EXPLICIT BETA USER</Item>
+              <Item active activeButton={active === 2}>EXCLUDED BETA USER</Item>
             </Grid>
           </Grid>
         </Grid>
@@ -104,7 +104,7 @@ const Content = ({envType, toggleClientId, changeContext}) => {
             <Item active>
               <Box
                 id="box-title"
-                sx={{ fontSize: '12px', textTransform: 'uppercase' }}
+                sx={{ fontSize: '12px', textTransform: 'uppercase', color: boxTitle.toLowerCase() === 'variation string on' ? 'green' : '' }}
               >
                 {boxTitle}
               </Box>
