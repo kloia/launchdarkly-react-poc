@@ -1,3 +1,6 @@
+> **Archived.** This repository is no longer maintained
+> and is kept read-only. It may be removed in the future.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
